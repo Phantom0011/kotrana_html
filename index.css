@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('fonts/RubikScribble-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'rubik', sans-serif;
+
+}
+
+.navbar{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    .left-container{
+        display: flex;
+        justify-content: space-around;
+        background-color: red;
+        width: 50%
+        ;
+    }
+
+    .right-container{
+        background-color: chartreuse;
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+
+    .navbar-item{
+        color: yellow;
+        font-size: 20px;
+    }
+}
+
